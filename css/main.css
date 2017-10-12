@@ -15,22 +15,28 @@ html {
 }
 
 p {
-  font-size: .9em;
+  font-size: 1em;
+  width: 23em;
 }
 
 img {
+  margin-top: 2em;
+  margin-left: .6em;
+  margin-right: .6em;
+  margin-bottom: 2em;
   width: 100%
 }
 
 a:hover {
-  background-color: #eee9de;
+  background-color: ##333;
   color: #666
 }
 
 a {
   border-style: solid;
   display: inline-block;
-  border-radius: .3em;
+  border-radius: .4em;
   text-decoration: none;
-  border-color: #666;
+  border-color: #333;
+  padding: .4em;
 }
