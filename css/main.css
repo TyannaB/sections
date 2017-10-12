@@ -14,17 +14,22 @@ html {
   max-width: 25em
 }
 
-p {
+body {
+  margin: 0;
+}
+
+.btn p {
   font-size: 1em;
   width: 23em;
   text-align: left;
+  margin-bottom: .6em;
 }
 
 section {
   margin-right: .6em;
 }
 
-img {
+.box {
   margin-top: 2em;
   margin-left: .6em;
   margin-right: .6em;
@@ -34,12 +39,12 @@ img {
   display: block;
 }
 
-a:hover {
+.btn a:hover {
   background-color: #333;
   color: #666
 }
 
-.btn {
+.btn a {
   border-style: solid;
   display: inline-block;
   color: #333;
