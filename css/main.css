@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  max-width: 25em
+}
+
+p {
+  font-size: .9em;
+}
+
+img {
+  width: 100%
+}
+
+a:hover {
+  background-color: #eee9de;
+  color: #666
+}
+
+a {
+  border-style: solid;
+  display: inline-block;
+  border-radius: .3em;
+  text-decoration: none;
+  border-color: #666;
+}
