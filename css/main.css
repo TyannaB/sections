@@ -17,7 +17,11 @@ html {
 p {
   font-size: 1em;
   width: 23em;
-  text-align: center;
+  text-align: left;
+}
+
+section {
+  margin-right: .6em;
 }
 
 img {
@@ -27,6 +31,7 @@ img {
   margin-bottom: 2em;
   width: 100%;
   vertical-align: middle;
+  display: block;
 }
 
 a:hover {
@@ -34,12 +39,13 @@ a:hover {
   color: #666
 }
 
-a {
+.btn {
   border-style: solid;
   display: inline-block;
+  color: #333;
   border-radius: .4em;
   text-decoration: none;
   border-color: #333;
   padding: .4em;
-  text-align: left;
+  text-align: center;
 }
